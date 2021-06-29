@@ -1,3 +1,10 @@
+# Mentoring
+/users
+
+# Elm
+elm-stuff
+repl-temp-*
+
 # Elixir
 /_build
 /cover
