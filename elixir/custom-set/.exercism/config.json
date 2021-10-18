@@ -1,0 +1,30 @@
+{
+  "blurb": "Create a custom set type.",
+  "authors": [],
+  "contributors": [
+    "angelikatyborska",
+    "Cohen-Carlisle",
+    "dalexj",
+    "devonestes",
+    "jinyeow",
+    "lpil",
+    "MeerKatDev",
+    "neenjaw",
+    "parkerl",
+    "rubysolo",
+    "sotojuan",
+    "Teapane",
+    "waiting-for-dev"
+  ],
+  "files": {
+    "solution": [
+      "lib/custom_set.ex"
+    ],
+    "test": [
+      "test/custom_set_test.exs"
+    ],
+    "example": [
+      ".meta/example.ex"
+    ]
+  }
+}

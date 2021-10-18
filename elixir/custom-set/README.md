@@ -1,5 +1,10 @@
 # Custom Set
 
+Welcome to Custom Set on Exercism's Elixir Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
+
+## Instructions
+
 Create a custom set type.
 
 Sometimes it is necessary to define a custom data structure of some
@@ -7,40 +12,22 @@ type, like a set. In this exercise you will define your own set. How it
 works internally doesn't matter, as long as it behaves like a set of
 unique elements.
 
-## Running tests
+For this exercise please refrain from using the `MapSet` API.
 
-Execute the tests with:
+## Source
 
-```bash
-$ mix test
-```
+### Contributed to by
 
-### Pending tests
-
-In the test suites, all but the first test have been skipped.
-
-Once you get a test passing, you can unskip the next one by
-commenting out the relevant `@tag :pending` with a `#` symbol.
-
-For example:
-
-```elixir
-# @tag :pending
-test "shouting" do
-  assert Bob.hey("WATCH OUT!") == "Whoa, chill out!"
-end
-```
-
-Or, you can enable all the tests by commenting out the
-`ExUnit.configure` line in the test suite.
-
-```elixir
-# ExUnit.configure exclude: :pending, trace: true
-```
-
-If you're stuck on something, it may help to look at some of
-the [available resources](https://exercism.io/tracks/elixir/resources)
-out there where answers might be found.
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+- @angelikatyborska
+- @Cohen-Carlisle
+- @dalexj
+- @devonestes
+- @jinyeow
+- @lpil
+- @MeerKatDev
+- @neenjaw
+- @parkerl
+- @rubysolo
+- @sotojuan
+- @Teapane
+- @waiting-for-dev
