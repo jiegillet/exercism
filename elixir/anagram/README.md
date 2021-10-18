@@ -1,49 +1,46 @@
 # Anagram
 
-Given a word and a list of possible anagrams, select the correct sublist.
+Welcome to Anagram on Exercism's Elixir Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
+
+## Instructions
+
+An anagram is a rearrangement of letters to form a new word.
+Given a word and a list of candidates, select the sublist of anagrams of the given word.
 
 Given `"listen"` and a list of candidates like `"enlists" "google"
 "inlets" "banana"` the program should return a list containing
 `"inlets"`.
 
-## Running tests
-
-Execute the tests with:
-
-```bash
-$ mix test
-```
-
-### Pending tests
-
-In the test suites, all but the first test have been skipped.
-
-Once you get a test passing, you can unskip the next one by
-commenting out the relevant `@tag :pending` with a `#` symbol.
-
-For example:
-
-```elixir
-# @tag :pending
-test "shouting" do
-  assert Bob.hey("WATCH OUT!") == "Whoa, chill out!"
-end
-```
-
-Or, you can enable all the tests by commenting out the
-`ExUnit.configure` line in the test suite.
-
-```elixir
-# ExUnit.configure exclude: :pending, trace: true
-```
-
-If you're stuck on something, it may help to look at some of
-the [available resources](https://exercism.io/tracks/elixir/resources)
-out there where answers might be found.
-
 ## Source
 
-Inspired by the Extreme Startup game [https://github.com/rchatley/extreme_startup](https://github.com/rchatley/extreme_startup)
+### Created by
 
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+- @rubysolo
+
+### Contributed to by
+
+- @andrewsardone
+- @angelikatyborska
+- @Br1ght0ne
+- @Cohen-Carlisle
+- @crazymykl
+- @dalexj
+- @devonestes
+- @henrik
+- @jeremy-w
+- @jinyeow
+- @kytrinyx
+- @lpil
+- @markijbema
+- @neenjaw
+- @parkerl
+- @pminten
+- @sotojuan
+- @Teapane
+- @tjcelaya
+- @waiting-for-dev
+
+### Based on
+
+Inspired by the Extreme Startup game - https://github.com/rchatley/extreme_startup

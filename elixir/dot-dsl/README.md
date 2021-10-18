@@ -1,12 +1,18 @@
-# DOT DSL
+# Dot DSL
 
-Write a Domain Specific Language similar to the Graphviz dot language.
+Welcome to Dot DSL on Exercism's Elixir Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
 
-A [Domain Specific Language
-(DSL)](https://en.wikipedia.org/wiki/Domain-specific_language) is a
-small language optimized for a specific domain.
+## Instructions
 
-For example the [DOT language](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) allows
+A [Domain Specific Language (DSL)](https://en.wikipedia.org/wiki/Domain-specific_language) is a
+small language optimized for a specific domain. Since a DSL is
+targeted, it can greatly impact productivity/understanding by allowing the
+writer to declare _what_ they want rather than _how_.
+
+One problem area where they are applied are complex customizations/configurations.
+
+For example the [DOT language](<https://en.wikipedia.org/wiki/DOT_(graph_description_language)>) allows
 you to write a textual description of a graph which is then transformed into a picture by one of
 the [Graphviz](http://graphviz.org/) tools (such as `dot`). A simple graph looks like this:
 
@@ -17,46 +23,37 @@ the [Graphviz](http://graphviz.org/) tools (such as `dot`). A simple graph looks
         a -- b [color="green"]
     }
 
-Putting this in a file `example.dot` and running `dot example.dot -T png
--o example.png` creates an image `example.png` with red and blue circle
+Putting this in a file `example.dot` and running `dot example.dot -T png -o example.png` creates an image `example.png` with red and blue circle
 connected by a green line on a yellow background.
 
-Create a DSL similar to the dot language.
+Write a Domain Specific Language similar to the Graphviz dot language using the provided `Graph` data structure and functions.
 
-## Running tests
+Our DSL is similar to the Graphviz dot language in that our DSL will be used
+to create graph data structures. However, unlike the DOT Language, our DSL will
+be an internal DSL for use only in our language.
 
-Execute the tests with:
+More information about the difference between internal and external DSLs can be
+found [here](https://martinfowler.com/bliki/DomainSpecificLanguage.html).
 
-```bash
-$ mix test
-```
+## Source
 
-### Pending tests
+### Contributed to by
 
-In the test suites, all but the first test have been skipped.
+- @angelikatyborska
+- @Cohen-Carlisle
+- @dalexj
+- @devonestes
+- @gvaughn
+- @jinyeow
+- @lpil
+- @neenjaw
+- @parkerl
+- @rubysolo
+- @sotojuan
+- @Teapane
+- @waiting-for-dev
+- @marcandre
 
-Once you get a test passing, you can unskip the next one by
-commenting out the relevant `@tag :pending` with a `#` symbol.
+### Based on
 
-For example:
-
-```elixir
-# @tag :pending
-test "shouting" do
-  assert Bob.hey("WATCH OUT!") == "Whoa, chill out!"
-end
-```
-
-Or, you can enable all the tests by commenting out the
-`ExUnit.configure` line in the test suite.
-
-```elixir
-# ExUnit.configure exclude: :pending, trace: true
-```
-
-If you're stuck on something, it may help to look at some of
-the [available resources](https://exercism.io/tracks/elixir/resources)
-out there where answers might be found.
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+Wikipedia - https://en.wikipedia.org/wiki/DOT_(graph_description_language)

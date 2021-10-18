@@ -7,7 +7,10 @@ defmodule Anagram do
     base_sorted = sort(base)
 
     candidates
-    |> Enum.filter(fn word -> sort(word) == base_sorted and word != base_sorted end)
+    |> Enum.filter(fn word ->
+      sort(word) == base_sorted and
+        String.downcase(word) != String.downcase(base)
+    end)
   end
 
   def sort(word) do
